@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.Logo{
+    width: 70px;
+}
+body{
+    background-color: #000000;
+    background-image: linear-gradient(0deg, #000000 0%, #fdfdfd 100%);
+    animation:bg-pan-bottom 10s both;
+}
+.encabezado{
+    border-bottom: solid black;
+}
+.contacto-titulo{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.container-form{
+padding: 5rem;
+
+}
+
+.contacto-form{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0px;
+    border: 0;
+    background-color: #111;
+    padding: 20px 40px;
+    outline: none;
+    transition: 0.5s;
+    color: #ddd;
+    box-shadow: 0 0 10px 4px #1d1f20;}
+
+.btn-enviar{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.btn-enviar:hover{
+    color: red;
+}
+
+/* Pie de pagina */
+footer {
+    display: flex;
+    justify-content: center;
+    border-top: solid  white; 
+    padding: 1rem;  
+
+}
+.titulo-pie{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+.correo-icons{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+.icons{
+    margin: 4px;
+}
+
+@media screen and (max-width: 858px) {
+    .logos-container img {
+            width: 100%;
+        
+    }
+
+}
+
+
+
